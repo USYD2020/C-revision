@@ -1,0 +1,44 @@
+//格式
+struct structureName 
+{
+    dataType member1;
+    dataType member2;
+    ...
+};
+
+// Example
+struct Person
+{
+    char name[50];
+    int citNo;
+    float salary;
+};
+
+//格式 1
+struct Person
+{
+    char name[50];
+    int citNo;
+    float salary;
+};
+
+int main()
+{
+    struct Person person1, person2, p[20];
+    return 0;
+}
+
+//格式 2
+struct Person
+{
+    char name[50];
+    int citNo;
+    float salary;
+} person1, person2, p[20];
+
+There are two types of operators used for accessing members of a structure.
+.  - Member operator
+-> - Structure pointer operator (will be discussed in the next tutorial)
+
+
+

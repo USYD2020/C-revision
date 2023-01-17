@@ -1,0 +1,19 @@
+//struct Distance
+struct Distance{
+    int feet;
+    float inch;
+};
+
+int main() {
+    struct Distance d1, d2;
+}
+
+// typedef struct distance
+typedef struct Distance{
+    int feet;
+    float inch;
+} distance;
+
+int main(){
+    distance d1, d2;
+}
